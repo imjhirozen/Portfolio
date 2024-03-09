@@ -1,0 +1,103 @@
+
+#header-container {
+  background-color: #0B60B0;
+
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#header-logo {
+  text-align: center;
+
+}
+
+#header-logo h2 {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-style: italic;
+  
+} 
+
+#header-button-container {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;  
+  
+  margin-right: 100px;
+}
+
+#header-nav-options {
+  display: none;
+  position: absolute;
+  background-color: rgba(163, 163, 163, 0.473);
+  border-radius: 10px;
+  padding: 10px 15px;
+  left: -90px;
+  
+}
+
+#header-nav-options button {
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  
+  border-radius: 10px;
+  border: none;
+  
+  cursor: pointer;
+}
+
+#header-nav-options button:hover {
+  background-color: rgba(255, 255, 255, 0.562);
+}
+
+@media (min-width: 826px) {
+  #header-nav-container-small {
+    display: none;
+  }
+}
+
+@media (max-width: 825px) {
+  #header-button-container {
+    display: none;
+  }
+
+  #header-nav-container-small {
+    margin-left: auto;
+    margin-right: 40px;
+
+    position: relative;
+  }
+
+  #header-nav-container-small:hover #header-nav-options {
+    display: block;
+  }
+
+}
+
+.header-buttons {
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  background-color: transparent;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+
+  text-decoration: none;
+}
+
+.header-buttons:hover {
+  color: #77adff;
+}

@@ -1,0 +1,156 @@
+#second-page {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  align-items: center;
+  justify-items: center;  
+}
+
+#second-page-image-container img {
+  width: 500px;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 1px 1px 40px 1px rgb(106, 142, 221);
+  -moz-box-shadow: 1px 1px 40px 1px rgba(106, 142, 221);
+  box-shadow: 1px 1px 40px 1px rgba(106, 142, 221);
+}
+
+#second-page-text-container {
+  background-color: white;
+  border-radius: 20px;
+
+  width: 900px; 
+  padding: 20px 30px;
+    
+  margin-right: auto;
+}
+
+#second-page-text-container h1 {
+  font-size: 3rem;
+}
+
+#second-page-text-container p {
+  font-size: 2rem;
+}
+
+@media (max-width: 1780px) {
+  #second-page-text-container {
+    width: 800px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 2rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1680px) {
+  #second-page-text-container {
+    width: 700px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 2rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1580px) {
+  #second-page-text-container {
+    width: 600px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 2rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1477px) {
+  #second-page-text-container {
+    width: 500px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 2rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1380px) {
+  #second-page-text-container {
+    width: 400px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 1.8rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  #second-page {
+    grid-template-columns: 1fr;
+  }
+
+  #second-page-image-container img {
+    width: 300px;
+    margin-top: 100px;
+  }
+  
+  #second-page-text-container {
+    width: auto;
+    margin-inline: 30px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 1.7rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #second-page {
+    grid-template-columns: 1fr;
+  }
+
+  #second-page-image-container img {
+    width: 300px;
+
+
+  }
+  
+  #second-page-text-container {
+    width: 400px;
+    margin-inline: 30px;
+    margin-bottom: 20px;
+  }
+
+  #second-page-text-container h1 {
+    font-size: 1.4rem;
+  }
+  
+  #second-page-text-container p {
+    font-size: 1rem;
+  }
+}

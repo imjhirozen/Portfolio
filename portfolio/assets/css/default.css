@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+
+  margin-top: 68px;
+
+  position: relative;
+}
+
+html{
+  Scroll-behavior: smooth;
+
+} 
