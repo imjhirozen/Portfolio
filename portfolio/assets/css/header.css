@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 825px) {
+  #header-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
   #header-button-container {
     display: none;
   }
