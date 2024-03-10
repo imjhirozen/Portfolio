@@ -103,8 +103,11 @@
 
 @media (max-width: 666px) {
   #image-container img {
-    margin-right: 0px;
-    
+    margin: 0px;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+
   }
 
   #landing-page {
@@ -112,7 +115,8 @@
   }
 
   #text-container {
-    margin: 100px 0 0 0;
+    margin: 50px 0 0 0;
+    text-align: center;
   }
 
   #image-container {

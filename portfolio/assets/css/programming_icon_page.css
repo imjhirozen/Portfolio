@@ -42,7 +42,7 @@
 
 @media (max-width: 1110px) {
   #programming-header-container {
-    width: 320px;
+    width: 250px;
   }
 
   #programming-icon-container {
@@ -69,8 +69,59 @@
   box-shadow: 1px 1px 40px -3px rgba(0,0,0,0.38);
 }
 
-@media (max-width: 590px) {
+@media (max-width: 585px) {
+  #programming-icon-container {
+   
+    margin-inline: 10px;
+    
+    overflow-x: auto; 
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+    gap: 20px;
+  }
+
+
   #programming-icon-container img {
-    width: 35px;
+    width: 40px;
+    
+  }
+}
+
+@media (max-width: 500px) {
+  #programming-icon-container {
+    width: 400px;
+    
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+    gap: 20px;
+  }
+
+  #programming-icon-container img {
+    width: 40px;
+    
+  }
+}
+
+@media (max-width: 490px) {
+  #programming-icon-container {
+    width: 320px;
+    
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+    gap: 20px;
+  }
+  
+  #first-icon {
+    margin-left: 70px;
+  }
+
+  #programming-icon-container img {
+    width: 40px;
+    
   }
 }
